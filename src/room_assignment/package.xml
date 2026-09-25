@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>room_assignment</name>
+  <version>0.1.0</version>
+  <description>Multiroom Gazebo SLAM and navigation assignment using wpr_simulation2.</description>
+  <maintainer email="272473936+sencangWei@users.noreply.github.com">sencangWei</maintainer>
+  <license>GPLv3</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>wpr_simulation2</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

@@ -1,0 +1,16 @@
+[INFO] [1790309204.331010969] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1790309204.331147249] [map_saver]: Creating
+[INFO] [1790309204.331202866] [map_saver]: Configuring
+[INFO] [1790309204.332479891] [map_saver]: Saving map from 'map' topic to '/workspace/src/room_assignment/maps/multiroom' file
+[WARN] [1790309204.332516250] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1790309204.332522473] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [1790309204.347907244] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [1790309204.347951218] [map_io]: Received a 238 X 158 map @ 0.05 m/pix
+[INFO] [1790309204.371760248] [map_io]: Writing map occupancy data to /workspace/src/room_assignment/maps/multiroom.pgm
+[INFO] [1790309204.372089928] [map_io]: Writing map metadata to /workspace/src/room_assignment/maps/multiroom.yaml
+[INFO] [1790309204.372162330] [map_io]: Map saved
+[INFO] [1790309204.372167298] [map_saver]: Map saved successfully
+[INFO] [1790309204.373859584] [map_saver]: Destroying
