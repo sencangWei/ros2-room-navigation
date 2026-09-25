@@ -1,0 +1,46 @@
+[INFO] [launch]: All log files can be found below /tmp/room_home/.ros/log/2026-09-25-05-12-03-520632-robot-MS-7E19-312
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gzserver-1]: process started with pid [334]
+[INFO] [robot_state_publisher-2]: process started with pid [336]
+[INFO] [spawn_entity.py-3]: process started with pid [338]
+[robot_state_publisher-2] [INFO] [1790313123.777742617] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-2] [INFO] [1790313123.777820023] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-2] [INFO] [1790313123.777825042] [robot_state_publisher]: got segment base_top_link
+[robot_state_publisher-2] [INFO] [1790313123.777828029] [robot_state_publisher]: got segment body_back_link
+[robot_state_publisher-2] [INFO] [1790313123.777830833] [robot_state_publisher]: got segment body_link
+[robot_state_publisher-2] [INFO] [1790313123.777833359] [robot_state_publisher]: got segment front_link
+[robot_state_publisher-2] [INFO] [1790313123.777835741] [robot_state_publisher]: got segment head_link
+[robot_state_publisher-2] [INFO] [1790313123.777838166] [robot_state_publisher]: got segment kinect2_camera_frame
+[robot_state_publisher-2] [INFO] [1790313123.777840629] [robot_state_publisher]: got segment kinect2_dock
+[robot_state_publisher-2] [INFO] [1790313123.777842946] [robot_state_publisher]: got segment kinect2_front_frame
+[robot_state_publisher-2] [INFO] [1790313123.777845577] [robot_state_publisher]: got segment kinect2_head_frame
+[robot_state_publisher-2] [INFO] [1790313123.777847965] [robot_state_publisher]: got segment kinect2_ir_optical_frame
+[robot_state_publisher-2] [INFO] [1790313123.777850501] [robot_state_publisher]: got segment kinect2_rgb_optical_frame
+[robot_state_publisher-2] [INFO] [1790313123.777852859] [robot_state_publisher]: got segment laser_link
+[spawn_entity.py-3] [INFO] [1790313123.983298675] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-3] [INFO] [1790313123.983481462] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-3] [INFO] [1790313123.984482131] [spawn_entity]: Waiting for entity xml on robot_description
+[spawn_entity.py-3] [INFO] [1790313123.995627126] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-3] [INFO] [1790313123.995779257] [spawn_entity]: Waiting for service /spawn_entity
+[gzserver-1] Error Code 12 Msg: Unable to find uri[model://sun]
+[gzserver-1] ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+[gzserver-1] ALSA lib conf.c:5182:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+[gzserver-1] ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+[gzserver-1] ALSA lib conf.c:5182:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+[gzserver-1] ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+[gzserver-1] ALSA lib conf.c:5182:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+[gzserver-1] ALSA lib conf.c:5705:(snd_config_expand) Evaluate error: No such file or directory
+[gzserver-1] ALSA lib pcm.c:2664:(snd_pcm_open_noupdate) Unknown PCM default
+[gzserver-1] AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': No such file or directory
+[spawn_entity.py-3] [INFO] [1790313124.247954117] [spawn_entity]: Calling service /spawn_entity
+[gzserver-1] [INFO] [1790313124.440814849] [wpb_imu]: <initial_orientation_as_reference> is unset, using default value of false to comply with REP 145 (world as orientation reference)
+[gzserver-1] [INFO] [1790313125.201179214] [kinect2.kinect2_depth_control]: Publishing camera info to [/kinect2/sd/camera_info]
+[gzserver-1] [INFO] [1790313125.201356939] [kinect2.kinect2_depth_control]: Publishing depth camera info to [/kinect2/sd/depth/camera_info]
+[gzserver-1] [INFO] [1790313125.201504074] [kinect2.kinect2_depth_control]: Publishing pointcloud to [/kinect2/sd/points]
+[gzserver-1] [INFO] [1790313125.207546623] [kinect2.kinect2_qhd_rgb_controller]: Publishing camera info to [/kinect2/qhd/camera_info]
+[gzserver-1] [INFO] [1790313125.241462809] [kinect2.kinect2_rgb_controller]: Publishing camera info to [/kinect2/hd/camera_info]
+[spawn_entity.py-3] [INFO] [1790313125.242636435] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [wpb_home]
+[gzserver-1] [INFO] [1790313125.352308734] [base_controller]: Subscribed to [/cmd_vel]
+[gzserver-1] [INFO] [1790313125.353222735] [base_controller]: Advertise odometry on [/odom]
+[gzserver-1] [INFO] [1790313125.354185659] [base_controller]: Publishing odom transforms between [odom] and [base_footprint]
+[INFO] [spawn_entity.py-3]: process has finished cleanly [pid 338]

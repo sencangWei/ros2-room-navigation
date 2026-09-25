@@ -1,4 +1,4 @@
 [submodule "src/wpr_simulation2"]
-	path = src/wpr_simulation2
+	path = 第一次测试/src/wpr_simulation2
 	url = https://github.com/6-robot/wpr_simulation2.git
 	branch = main
