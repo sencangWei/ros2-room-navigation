@@ -1,0 +1,78 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Plane: XY
+      Cell Size: 1
+      Plane Cell Count: 10
+      Value: true
+    - Class: rviz_default_plugins/Map
+      Name: Room map
+      Enabled: true
+      Alpha: 0.75
+      Color Scheme: map
+      Topic:
+        Depth: 1
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /map
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Robot and goal
+      Enabled: true
+      Topic:
+        Depth: 10
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /room_markers
+      Value: true
+    - Class: rviz_default_plugins/Path
+      Name: Planned path
+      Enabled: true
+      Color: 255; 180; 0
+      Line Style: Lines
+      Line Width: 0.04
+      Topic:
+        Depth: 1
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /planned_path
+      Value: true
+    - Class: rviz_default_plugins/LaserScan
+      Name: Laser scan
+      Enabled: true
+      Color: 255; 0; 0
+      Size (m): 0.035
+      Topic:
+        Depth: 10
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /scan
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 35; 35; 40
+    Fixed Frame: odom
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/TopDownOrtho
+      Name: Current View
+      Target Frame: <Fixed Frame>
+      Scale: 75
+      Value: TopDownOrtho (rviz)
+    Saved: ~
