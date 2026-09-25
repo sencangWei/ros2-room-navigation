@@ -1,0 +1,3 @@
+[INFO] [1790311547.808627279] [bt_navigator]: Begin navigating from current location (-4.80, 0.00) to (4.71, 0.00)
+[INFO] [1790311624.935246287] [controller_server]: Reached the goal!
+[INFO] [1790311624.971010117] [bt_navigator]: Goal succeeded
